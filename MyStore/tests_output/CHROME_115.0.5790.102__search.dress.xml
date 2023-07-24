@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="search.dress"
+    errors="0" failures="1" hostname="" id="" package="search.dress" skipped="0"
+    tests="1" time="44.02" timestamp="">
+  
+    <testcase name="Search for Dress and verify search results" classname="search.dress" time="22.01" assertions="1">  <failure message="Testing if element &lt;li.ajax_block_product:nth-child(1) &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; h5:nth-child(1) &gt; a:nth-child(1)&gt; contains text &#39;dress&#39; in 5000ms - expected &#34;contains text &#39;dress&#39;&#34; but got: &#34;does not contain &#39;dress&#39;&#34; (5226ms)">    at Search for Dress and verify search results (C:\Users\VGPF4337\Documents\MyStore\mystoretests\search.dress.js:19:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

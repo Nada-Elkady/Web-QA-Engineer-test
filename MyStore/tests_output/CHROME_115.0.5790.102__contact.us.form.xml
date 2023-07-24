@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="contact.us.form"
+    errors="0" failures="0" hostname="" id="" package="contact.us.form" skipped="0"
+    tests="7" time="514.7" timestamp="">
+  
+    <testcase name="Submit blank form" classname="contact.us.form" time="23.60" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Submit form by filling one required field only -- email address" classname="contact.us.form" time="25.95" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Submit form by filling two required fields only -- email address and message" classname="contact.us.form" time="26.94" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Submit form by filling in all required fields (subject, email, and message)" classname="contact.us.form" time="44.20" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Attach PNG Image" classname="contact.us.form" time="33.72" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Attach PDF File" classname="contact.us.form" time="69.83" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Submit form by filling all fields (required and optional)" classname="contact.us.form" time="33.13" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
