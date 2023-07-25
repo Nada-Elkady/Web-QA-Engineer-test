@@ -1,5 +1,5 @@
 const request = require('supertest');
-const apiBaseUrl = 'localhost:8080'; // the base URL of the online API
+const apiBaseUrl = 'localhost:3000'; // the base URL of the online API
 let token
 let patchingToken
 let deleteToken
