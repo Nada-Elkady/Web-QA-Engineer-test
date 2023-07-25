@@ -26,13 +26,17 @@ jobs:
             sudo apt-get update
             sudo apt-get install -y google-chrome-stable
       - run:
-          name: Run tests
+          name: Run Api tests
           command: |
-            cd MyStore
-            npx nightwatch
-            cd ../mock-api-test
+            cd mock-api-test
             npm run dev &
             npm run test
+      - run:
+          name: run ui test
+          command: |
+            cd ../MyStore
+            npx nightwatch
+
 
 workflows:
   version: 2
