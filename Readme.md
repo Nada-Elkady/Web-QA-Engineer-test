@@ -1,3 +1,4 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Nada-Elkady/Web-QA-Engineer-test/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Nada-Elkady/Web-QA-Engineer-test/tree/main)
 # Web QA Engineer Technical Task
 ___
 This project contains two folders
