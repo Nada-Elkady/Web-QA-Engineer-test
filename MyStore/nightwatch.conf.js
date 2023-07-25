@@ -9,7 +9,10 @@ module.exports = {
      ssl: false,
      default_path_prefix: '',
      proxy: undefined,
-     cli_args: {}
+     cli_args: {},
+        chrome: {
+      driver: require('chromedriver').path
+    }
     },
 
     "test_settings" :{
