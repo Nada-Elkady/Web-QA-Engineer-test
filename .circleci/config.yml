@@ -8,7 +8,9 @@ jobs:
       - run:
           name: Update ownership of npm directory
           command: |
-            sudo chown -R $(whoami) ~/.npm
+            if [ -d ~/.npm ]; then
+              sudo chown -R $(whoami) ~/.npm
+            fi
       - run:
           name: Install dependencies
           command: |
@@ -25,9 +27,10 @@ jobs:
             npm run dev &
             npm run test
 
+ 
+
 workflows:
   version: 2
   build_and_test:
     jobs:
       - build
-      
