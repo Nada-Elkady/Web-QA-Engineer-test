@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Run Api tests
           command: |
-            cd mock-api-test
+            cd mock-API-test
             npm run dev &
             npm run test
       - run:
