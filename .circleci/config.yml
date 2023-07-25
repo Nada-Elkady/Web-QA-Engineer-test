@@ -16,7 +16,7 @@ jobs:
           command: |
             cd MyStore
             npm install
-            cd ../mock-api-test
+            cd ../mock-API-test
             npm install
       - run:
           name: Run tests
